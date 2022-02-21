@@ -1,2 +1,4 @@
 # Tetrahedral-Molecule
-Program simulating an atom with a tetrahedral molecular geometry.
+This is a program simulating an atom with a tetrahedral molecular geometry, written in QB64.  The .bas file is used to run QB64 files in the IDE provided by https://qb64.org/.  In order to view the code, simply change the file extension of the .bas file to .txt or download the provided .txt file.
+
+QB64 does not have 3D graphics (that I'm aware of), so these 3D graphics were manually created by recreating at a fundamental level how a computer displays 3D objects on a 2D screen.  The simulation runs a simulation of methane, CH4.  It accounts for the Coulombic repulsion between electrons and approximates the quantum mechanical force from th nucleus on each electron as if there is a spring between them.  In order to allow the system to settle into equilibrium, the electrons experience a drag force to gradually reduce the energy of the system.
